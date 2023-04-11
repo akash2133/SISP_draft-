@@ -1,0 +1,101 @@
+/* Global styles */
+body {
+  margin: 0 auto;
+  max-width: 850px;
+  padding: 0 25px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+  background-color: #f5f5f5;
+  }
+  
+  h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #444;
+  text-align: center;
+  margin-top: 2.5rem;
+  }
+  
+  h1, h2, h3 {
+  margin-top: 35px;
+  }
+  
+  img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 35px auto;
+  }
+  
+  p, ul {
+  margin: 20px 0;
+  }
+  
+  ul {
+  list-style: disc;
+  margin-left: 25px;
+  }
+  
+  /* Page-specific styles */
+  h1 {
+  text-align: center;
+  font-size: 38px;
+  font-weight: bold;
+  }
+  
+  h2 {
+  font-size: 26px;
+  font-weight: bold;
+  }
+  
+  h3 {
+  font-size: 20px;
+  font-weight: bold;
+  }
+  
+  img {
+  max-width: 650px;
+  }
+  
+  /* Media queries */
+  @media only screen and (max-width: 767px) {
+  h1 {
+  font-size: 30px;
+  }
+  
+  h2 {
+  font-size: 22px;
+  }
+  
+  h3 {
+  font-size: 18px;
+  }
+  
+  img {
+  margin: 25px auto;
+  }
+  }
+  
+  .sidebar {
+  background-color: #f0f0f0;
+  padding: 15px;
+  margin: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  }
+  
+  .formula {
+  font-style: italic;
+  font-weight: bold;
+  margin: 15px;
+  padding: 15px;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  }
+  
+  
+  
+  
